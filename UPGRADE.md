@@ -134,8 +134,8 @@
 | Old id                                                                             | New id                                                                      |
 |------------------------------------------------------------------------------------|-----------------------------------------------------------------------------|
 | sylius_invoicing_plugin.event_listener.workflow.payment.produce_order_payment_paid | sylius_invoicing.event_listener.workflow.payment.produce_order_payment_paid |
-| sylius_invoicing_plugin.ui.action.download_invoice                                 | sylius_invoicing.controller.download_invoice                             |
-| sylius_invoicing_plugin.ui.action.resend_invoice                                   | sylius_invoicing.controller.resend_invoice                               |
+| sylius_invoicing_plugin.ui.action.download_invoice                                 | sylius_invoicing.controller.download_invoice                                |
+| sylius_invoicing_plugin.ui.action.resend_invoice                                   | sylius_invoicing.controller.resend_invoice                                  |
 | sylius_invoicing_plugin.cli.generate_invoices                                      | sylius_invoicing.cli.generate_invoices                                      |
 | sylius_invoicing_plugin.converter.order_item_units_to_line_items                   | sylius_invoicing.converter.order_item_units_to_line_items                   |
 | sylius_invoicing_plugin.converter.shipping_adjustments_to_line_items               | sylius_invoicing.converter.shipping_adjustments_to_line_items               |
@@ -159,7 +159,7 @@
 | sylius_invoicing_plugin.event_listener.order_placed                                | sylius_invoicing.listener.order_placed                                      |
 | sylius_invoicing_plugin.event_producer.order_placed                                | sylius_invoicing.event_producer.order_placed                                |
 | sylius_invoicing_plugin.listener.order_payment_paid                                | sylius_invoicing.listener.order_payment_paid                                |
-| sylius_invoicing_plugin.ui.menu.admin_menu_listener                                | sylius_invoicing.listener.admin_menu                                      |
+| sylius_invoicing_plugin.ui.menu.admin_menu_listener                                | sylius_invoicing.listener.admin_menu                                        |
 | sylius_invoicing_plugin.email.invoice_email_sender                                 | sylius_invoicing.email.invoice_email_sender                                 |
 | sylius_invoicing_plugin.command_handler.send_invoice_email                         | sylius_invoicing.command_handler.send_invoice_email                         |
 | sylius_invoicing_plugin.provider.tax_rate_percentage                               | sylius_invoicing.provider.tax_rate_percentage                               |
